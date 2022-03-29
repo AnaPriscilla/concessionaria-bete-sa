@@ -277,6 +277,10 @@
     text-transform: uppercase;
 }
 
+#cadastrar {
+    cursor: pointer;
+}
+
 .cardsProdutos .footerCard .button:hover {
     background-color: #FF8A48;
     color: #fff;
@@ -529,13 +533,29 @@ input[type=tel]:focus  {
     margin-top: 50px;
 }
 
+
+.boxPessoa1, .boxPessoa2, .boxPessoa3,
+.boxPessoa4, .boxPessoa5, .boxPessoa6,
+.boxPessoa7, .boxPessoa8 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1130px;
+}
+
+.boxPessoa1 label, .boxPessoa2 label, .boxPessoa3 label,
+.boxPessoa4 label, .boxPessoa5 label, .boxPessoa6 label,
+.boxPessoa7 label, .boxPessoa8 label {
+    margin-right: 5px;
+}
+
 .dadosPessoais #nomeCompleto {width: 36.6%;}
 
 .dadosPessoais #localNascimento {width: 27%;}
 
 .dadosPessoais #residencia {width: 39.7%;}
 
-.dadosPessoais #bairro {width: 18.2%;}
+.dadosPessoais #bairro {width: 17.8%;}
 
 .dadosPessoais #cidade {width: 16.8%;}
 
@@ -543,13 +563,13 @@ input[type=tel]:focus  {
 
 .dadosPessoais #cic{width: 16.8%;}
 
-.dadosPessoais #fone {width: 18%;}
+.dadosPessoais #fone {width: 18.5%;}
 
 .dadosPessoais #estadoCivil {width: 15%;}
 
 .dadosPessoais #dataNascimento {width: 10%;}
 
-.dadosPessoais #aluguel {width: 16.5%;}
+.dadosPessoais #aluguel {width: 14.2%;}
 
 .dadosPessoais #pensao {width: 14.5%;}
 
@@ -561,17 +581,22 @@ input[type=tel]:focus  {
 
 .dadosPessoais #localTrabalho {width: 28.2%;}
 
-.dadosPessoais #funcao {width: 41.7%;}
+.dadosPessoais #funcao {width: 41%;}
 
 .dadosPessoais #endereco {width: 40%;}
 
 .dadosPessoais #cidEmpresa {width: 18%;}
 
-.dadosPessoais #foneTrabalho {width: 18%;}
+.dadosPessoais #foneTrabalho {width: 17.5%;}
+
+
+.dadosPessoais select {
+    margin-left: 5px;
+}
 
 .dadosPessoais #admitidoEm,
 .dadosPessoais #salario{
-    width: 11.8%;
+    width: 11.5%;
 }
 
 .dadosPessoais #regEmpregador {width: 10.8%;}
@@ -579,6 +604,14 @@ input[type=tel]:focus  {
 .dadosPessoais #empregoAnt {width: 12.8%;}
 
 /*Conjuge*/
+
+.boxConjuge1, .boxConjuge2, .boxConjuge3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1130px;
+}
+
 .dadosConjuge #conjuge {width: 42%;}
 
 .dadosConjuge #dnConj{width: 12%;}
@@ -598,6 +631,16 @@ input[type=tel]:focus  {
 }
 
 .dadosConjuge #salarioConjuge {width: 13.5%;}
+
+/*Referência*/
+
+.boxReferencia1, .boxReferencia2, 
+.boxReferencia3, .boxReferencia4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1130px;
+}
 
 .dadosReferencia #parente,
 .dadosReferencia #foneParente {
@@ -632,13 +675,20 @@ input[type=tel]:focus  {
 .infoVeiculo,
 .dadosVeiculo {
     width: 1150px;
+}
+
+.infoVeiculo {
+    margin-top: 20px;
+}
+
+.dadosVeiculo {
     margin-top: 50px;
 }
 
 .infoVeiculo #placa,
 .infoVeiculo #paises,
 .infoVeiculo #renavam {
-    width: 25.7%;
+    width: 25%;
 }
 
 .dadosVeiculo #tipoVeiculo,
@@ -649,18 +699,50 @@ input[type=tel]:focus  {
 }
 
 .dadosVeiculo #peso,
-.dadosVeiculo #numeroEixo {
-    width: 10.5%;
+.dadosVeiculo #numeroEixos {
+    width: 14.2%;
 }
 
 .dadosVeiculo #numeroChassi,
 .dadosVeiculo #veiculo {
-    width: 12.4%;
+    width: 12%;
 }
 
 .dadosVeiculo #primeiroLic,
 .dadosVeiculo #ultimoLic {
-    width: 32%;
+    width: 31.6%;
+}
+
+label {
+    margin-right: 5px;
+}
+
+button {
+    border: 1px solid #FF8A48;
+    background-color: #FF8A48;
+    padding: 15px 80px;
+    border-radius: 10px;
+    float: right;
+    margin-top: 50px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+button:hover {
+    border: 1px solid #f38647;
+    background-color: #f38647;
+}
+
+.boxInfoVeiculos,
+.boxVeiculoLinha1,
+.boxVeiculoLinha2,
+.boxVeiculoLinha3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
 }
 
 @media(max-width:1150px) {
@@ -673,6 +755,23 @@ input[type=tel]:focus  {
 
     .headerItens {margin: 25px 50px; flex-direction: column;}
     .menuCadastrar {margin-top: 15px;}
+
+    .tituloHeaderForm h1 {
+        font-size: 16px;
+    }
+
+    .headerFormItens a {
+        font-size: 10px;
+    }
+
+    .headerFormItens .tituloHeaderForm img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .subTituloForm p {
+        font-size: 8.8px;
+    }
 
     .cardsProdutos,
     .produtosOferecidos,
@@ -695,5 +794,103 @@ input[type=tel]:focus  {
         border: none;
         padding: 50px;
         font-size: 15px;
+    }
+
+    .headerForm {width: 100%;}
+
+    .headerFormItens {margin: 25px;}
+
+    .infoVeiculo, .dadosPessoais {margin-top: 40px;}
+    
+    .dadosVeiculo, .dadosConjuge, .dadosReferencia {margin-top: 30px;}
+
+    .formPessoaFooter {margin-bottom: 5px;}
+
+    form { width: 100%;}
+    .mainForm {padding: 80px 30px 10px 25px;}
+    .formVeiculo fieldset,
+    .formPessoa fieldset { padding: 0px 5px 5px 10px;}
+    .infoVeiculo, .dadosVeiculo, .dadosPessoais, 
+    .dadosConjuge, .dadosReferencia, .infoVeiculo #placa,
+    .infoVeiculo #paises, .infoVeiculo #renavam, .dadosVeiculo #tipoVeiculo,
+    .dadosVeiculo #placa, .dadosVeiculo #modelo, .dadosVeiculo #ano, .dadosVeiculo #peso,
+    .dadosVeiculo #numeroEixos, .dadosVeiculo #numeroChassi, .dadosVeiculo #corVeiculo,
+    .dadosVeiculo #primeiroLic, .dadosVeiculo #ultimoLic, .dadosVeiculo #tipoCarro,
+    .dadosPessoais #nomeCompleto, .dadosPessoais #localNascimento, .dadosPessoais #residencia,
+    .dadosPessoais #bairro, .dadosPessoais #cidade, .dadosPessoais #rg, .dadosPessoais #cic,
+    .dadosPessoais #fone, .dadosPessoais #estadoCivil, .dadosPessoais #dataNascimento,
+    .dadosPessoais #aluguel, .dadosPessoais #pensao, .dadosPessoais #resAnt,
+    .dadosPessoais #cidAnt, .dadosPessoais #cidTempo, .dadosPessoais #localTrabalho,
+    .dadosPessoais #funcao, .dadosPessoais #endereco, .dadosPessoais #cidEmpresa,
+    .dadosPessoais #foneTrabalho, .dadosPessoais #ufNascimento, .dadosPessoais #qTempo,
+    .dadosPessoais #admitidoEm, .dadosPessoais #regEmpregador, .dadosPessoais #salario,
+    .dadosPessoais #empregoAnt, .dadosConjuge #conjuge, .dadosConjuge #dnConj,
+    .dadosConjuge #rgConjuge, .dadosConjuge #localTrabConju, .dadosConjuge #endConjuge,
+    .dadosConjuge #cidConjuge, .dadosConjuge #admConjuge, .dadosConjuge #fConjuge,
+    .dadosConjuge #refConjuge, .dadosConjuge #salarioConjuge, .dadosReferencia #parente, 
+    .dadosReferencia #foneParente, .dadosReferencia #nomeParente, .dadosReferencia #ruaParente,
+    .dadosReferencia #bairroParente, .dadosReferencia #ruaAmigo, .dadosReferencia #bairroAmigo,
+    .dadosReferencia #cidadeParente, .dadosReferencia #cidadeAmigo, .dadosReferencia #nomeAmigo,
+    .dadosReferencia #foneAmigo { width: 95%;}
+
+    .boxInfoVeiculos, .boxInfoVeiculos1, .boxInfoVeiculos2, .boxInfoVeiculos3 {padding: 5px 0px;}
+
+    .dadosPessoais .casaPropria {margin: 30px 0px;}
+
+    .dadosPessoais .casaPropria label {margin-right: 15px;}
+    .dadosPessoais #casaPropriaSim,
+    .dadosPessoais #casaPropriaNao {
+        margin-left: -10px;
+        margin-right: 15px;
+    }
+
+    .formVeiculo label,
+    .formPessoa label { margin: 10px 0px 0px 0px;}
+
+    .boxInfoVeiculos #paises,
+    .boxInfoVeiculos #tipoCarro,
+    .boxPessoa1 #estadoCivil,
+    .boxPessoa2 #ufNascimento,
+    .boxPessoa4 #qTempo {
+        margin: 10px 0px 10px 0px;
+    }
+
+    .boxInfoVeiculos label, .boxInfoVeiculos1 label,
+    .boxInfoVeiculos2 label, .boxInfoVeiculos3 label {
+        margin: 5px 0px 0px 0px;
+    }
+
+    button {
+        float: none;
+        width: 100%;
+        margin: 30px 0px 20px 0px;
+    }
+
+    .boxReferencia1 label, .boxReferencia2 label, 
+    .boxReferencia3 label, .boxReferencia4 label,
+    .boxConjuge1 label, .boxConjuge2 label, .boxConjuge3 label,
+    .boxPessoa1 label, .boxPessoa2 label, .boxPessoa3 label,
+    .boxPessoa4 label, .boxPessoa5 label, .boxPessoa6 label,
+    .boxPessoa7 label, .boxPessoa8 label {
+        margin: 5px 0px 0px 0px;
+    }
+
+    .boxReferencia1, .boxReferencia2, 
+    .boxReferencia3, .boxReferencia4,
+    .boxConjuge1, .boxConjuge2, .boxConjuge3,
+    .boxPessoa1, .boxPessoa2, .boxPessoa3,
+    .boxPessoa4, .boxPessoa5, .boxPessoa6,
+    .boxPessoa7, .boxPessoa8 {
+        width: 95%;
+        margin-left: 10px;
+    }
+
+    .boxInfoVeiculos, .boxVeiculoLinha1, .boxVeiculoLinha2,
+    .boxVeiculoLinha3, .boxPessoa1, .boxPessoa2, .boxPessoa3,
+    .boxPessoa4, .boxPessoa5, .boxPessoa6, .boxPessoa7, .boxPessoa8,
+    .boxConjuge1, .boxConjuge2, .boxConjuge3, .boxReferencia1, .boxReferencia2,
+    .boxReferencia3, .boxReferencia4 {
+        align-items: baseline;
+        flex-direction: column;
     }
 }
