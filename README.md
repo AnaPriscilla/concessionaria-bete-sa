@@ -1,17 +1,17 @@
 # Concessionaria Bete SA
 PREVIEW: https://concessionaria-bete-sa.vercel.app/
 
-##### Sobre: Trabalho de desenvolvimento utilizando html e css. 
+#### Sobre: Trabalho de desenvolvimento utilizando html e css. 
 
-### FUNCIONALIDADES
+### Especificação para desenvolvimento do projeto
+#### FUNCIONALIDADES
 
-#### Página Principal da Empresa: <br> Deve conter uma apresentação sobre a concessionária e opção para navegar para as duas funcionalidades a seguir.
+##### Página Principal da Empresa → Deve conter uma apresentação sobre a concessionária e opção para navegar para as duas funcionalidades a seguir.
 
 ● Cadastro de Pessoa <br>
 ● Cadastro de Veiculo <br>
-● Informações no slide <br>
 
-#### → Na página principal (Home Page) é necessário que o aluno organize o conteúdo da página com textos de apresentação e imagens referentes aos seguintes tópicos:
+##### → Na página principal (Home Page) é necessário que o aluno organize o conteúdo da página com textos de apresentação e imagens referentes aos seguintes tópicos:
 
 ● Logomarca <br>
 ● Menu de Navegação <br>
@@ -30,4 +30,7 @@ PREVIEW: https://concessionaria-bete-sa.vercel.app/
 ### Formulário Cadastro de Veículo:
 ![](https://github.com/AnaPriscilla/concessionaria-bete-sa/blob/main/prototipos/formCar.png?raw=true)
 
-###### → Design e Desenvolvimento por Ana Priscilla F. 🧡
+### Mobile:
+![](https://github.com/AnaPriscilla/concessionaria-bete-sa/blob/main/prototipos/mobile.png?raw=true)
+
+##### → Design e Desenvolvimento por Ana Priscilla F. 🧡 
