@@ -7,6 +7,7 @@
         <title>Cadastro de Carro | Concessionária Bete SA</title>
         <link rel="shortcut icon" href="../images/fav.png" type="image"/>
         <link rel="stylesheet" href="../css/styles.css" type="text/css">
+        <script src="/js/app.js"></script>
     </head>
     <body>
         <header class="headerForm">
@@ -303,8 +304,8 @@
                                     <option value="sedan">Sedan</option>
                                 </select>
                                 <!--Marca-->
-                                <label for="placa">Placa:</label>
-                                <input type="text" id="placa" name="placa">
+                                <label for="marca">Marca:</label>
+                                <input type="text" id="marca" name="marca">
                                 <!--Modelo-->
                                 <label for="modelo">Modelo:</label>
                                 <input type="text" id="modelo" name="modelo">  
@@ -331,7 +332,7 @@
                             <div class="boxVeiculoLinha3">
                                 <!--Primeiro Licenciamento-->
                                 <label for="primeiroLic">Primeiro Licenciamento:</label>
-                                <input type="text" id="primeiroLic" name="placa">
+                                <input type="text" id="primeiroLic" name="primeiroLic">
                                 <!--Ultimo Licenciamento-->
                                 <label for="ultimoLic">Ultimo Licenciamento:</label>
                                 <input type="text" id="ultimoLic" name="ultimoLic">         
@@ -339,6 +340,7 @@
 
                     </fieldset>
                     <button type="submit" name="cadastrarCarro" value="cadastrarCarro">Cadastrar</button>
+                    <button onclick="preencherVeiculo()">Preencher</button>
                 </form>
             </section>
         </main>

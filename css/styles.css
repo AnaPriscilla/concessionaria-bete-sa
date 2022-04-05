@@ -700,12 +700,12 @@ input[type=tel]:focus  {
 
 .dadosVeiculo #peso,
 .dadosVeiculo #numeroEixos {
-    width: 14.2%;
+    width: 9%;
 }
 
 .dadosVeiculo #numeroChassi,
 .dadosVeiculo #veiculo {
-    width: 12%;
+    width: 22.2%;
 }
 
 .dadosVeiculo #primeiroLic,
@@ -723,7 +723,7 @@ button {
     padding: 15px 80px;
     border-radius: 10px;
     float: right;
-    margin-top: 50px;
+    margin: 50px 0px 0px 20px;
     color: #fff;
     font-weight: bold;
     text-transform: uppercase;
